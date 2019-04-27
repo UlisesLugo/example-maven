@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -cp target/example-maven.jar com.rts.example.maven.src.Game $PORT
