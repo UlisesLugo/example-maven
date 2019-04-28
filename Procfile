@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/example-maven.jar com.rts.example.maven.src.Game.java $PORT
+web: java -cp target/classes/:target/dependency/* com.rts.example.maven.src.Game
