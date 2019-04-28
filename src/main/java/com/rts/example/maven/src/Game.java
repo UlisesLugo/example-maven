@@ -12,5 +12,7 @@ package com.rts.example.maven.src;
 public class Game {
     public static void main(String args[]){
         System.out.println("Running");
+        String dbUrl = System.getenv("DATABASE_URL");
+        System.out.println(dbUrl);
     }
 }
